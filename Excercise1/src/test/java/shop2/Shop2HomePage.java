@@ -36,5 +36,3 @@ public class Shop2HomePage {
     }
 }
 
-
-// wybrać Hummingbird prindet sweater
