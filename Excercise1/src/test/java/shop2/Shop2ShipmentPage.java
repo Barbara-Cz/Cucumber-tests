@@ -1,8 +1,5 @@
 package shop2;
-//    potwierdzi address (możesz go dodać wcześniej ręcznie),
-//        wybierze metodę odbioru - PrestaShop "pick up in store",
-//        wybierze opcję płatności - Pay by Check,
-//        kliknie na "order with an obligation to pay",-nie było takiego przycisku, kliknęłam "place order"
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
