@@ -7,8 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-//Wybrać rozmiar M
-//Wybrać 5 sztuk, dodać do koszyka, proceed to check out- pop up window
+
 
 public class Shop2ProductPage {
     private final WebDriver driver;
