@@ -36,22 +36,7 @@ public class ShopMyAddressesPage {
         newlyAddedDeleteBtn.click();
     }
 
-//    nie napisałam metody "getCreatedAddressText" w tej klasie bo nie wiedziałam jak uzyskać dostęp do
-//        zmiennej "addressTExt" z poziomu klasy ShopSteps, dlatego opisałam wszystko od razu tam
-//
-//    public String getCreatedAddressText() {
-//        int dynamicIndex = addressesList.size() - 1; // Pobieramy indeks ostatniego elementu (następnego adresu)
-//        WebElement newAddress = addressesList.get(dynamicIndex);
-//        WebElement addressBody = newAddress.findElement(By.cssSelector(".address-body"));
-//
-//        String addressText = addressBody.getText();
-//
-//        System.out.println("Nowy adres:");
-//        System.out.println(addressText); // Wydrukuj pobrany adres
-//
-//        return addressText;
-//
-//    }
+
 }
 
 
