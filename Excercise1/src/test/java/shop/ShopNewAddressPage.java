@@ -20,16 +20,7 @@ public class ShopNewAddressPage {
     WebElement countryInput;
     @FindBy(id = "field-phone")
     WebElement phoneInput;
-//    @FindBy(type = "submit")
-//    WebElement saveBtn;
 
-
-
-//    @FindBy(name = "submitNewsletter")
-//    WebElement newsLetter;
-
-//    @FindBy(name ="email")
-//        WebElement inputNewsletter;
 
 
     public ShopNewAddressPage(WebDriver driver) {
@@ -51,26 +42,15 @@ public class ShopNewAddressPage {
         postalCodeInput.clear();
         postalCodeInput.sendKeys(postalCode);
 
-//        Select countryDropdown = new Select(countryInput);
-//        countryDropdown.selectByVisibleText(country);
+       
 
         countryInput.click();
         countryInput.click();
 
-//        phoneInput.clear();
 
         phoneInput.clear();
         phoneInput.sendKeys(phone);
-//Thread.sleep(5000);
 
-//        saveBtn.click();
-
-//        inputNewsletter.sendKeys("barb.olech@gmail.com");
-//        newsLetter.click();
 
     }
 }
-//
-////        ten będzie do zmiany, bo  jest lista a nie pole do wpisania tekstu,
-////        muszę wpisać coś po kliknięciu, a tam jest tylko jeden wybór UK
-//public void iSelectCountry(String country) {}
