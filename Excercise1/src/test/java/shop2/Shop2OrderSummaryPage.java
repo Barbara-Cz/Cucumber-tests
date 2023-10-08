@@ -40,7 +40,7 @@ public class Shop2OrderSummaryPage {
             System.out.println("Screenshot saved to: " + filePath);
         } catch (IOException e) {
             e.printStackTrace();
-            // Tutaj możesz dodać obsługę wyjątku, np. zalogować błąd lub inaczej zareagować
+            // Obsługa wyjątku
         }
     }
 
